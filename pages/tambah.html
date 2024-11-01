@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form Data Karyawan</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/tambah.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <div class="container mt-5">
+      <form action="your-action-url" method="post">
+        
+        <div class="mb-3">
+          <label for="fullName" class="form-label">Nama Lengkap</label>
+          <input type="text" class="form-control" id="fullName" name="fullName" placeholder="Muhamad Rahmat Fadila" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="gender" class="form-label">Jenis Kelamin</label>
+          <select class="form-select" id="gender" name="gender" required>
+            <option value="Laki-Laki">Laki-Laki</option>
+            <option value="Perempuan">Perempuan</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="mrahmatfadila@gmail.com" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="phone" class="form-label">No HP</label>
+          <input type="tel" class="form-control" id="phone" name="phone" placeholder="085123456789" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="address" class="form-label">Alamat</label>
+          <textarea class="form-control" id="address" name="address" rows="3" required></textarea>
+        </div>
+
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control" id="password" name="password" placeholder="********" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="position" class="form-label">Jabatan</label>
+          <input type="text" class="form-control" id="position" name="position" placeholder="Manager" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="division" class="form-label">Divisi</label>
+          <input type="text" class="form-control" id="division" name="division" placeholder="IT" required>
+        </div>
+
+        <div class="d-flex justify-content-end">
+          <button type="submit" class="btn btn-primary me-2">Simpan</button>
+          <button type="reset" class="btn btn-secondary">Batal</button>
+        </div>
+
+      </form>
+    </div>
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
