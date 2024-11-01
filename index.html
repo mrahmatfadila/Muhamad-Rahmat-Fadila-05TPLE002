@@ -3,25 +3,75 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/css/styles.css" rel="stylesheet">
+    <title>Sistem Informasi Manajemen Karyawan</title>
+    <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/sidebar.css" rel="stylesheet">
   </head>
   <body>
     <!-- Sidebar -->
+     <div class="bg-color"></div>
     <nav class="sidebar">
-      <h4 class="text-center">UNIVERSITAS BUNG KARNO</h4>
-      <p class="text-center">Welcome, Yovan Figri <br> Administrator</p>
-      <ul class="nav flex-column">
-        <li class="nav-item"><a href="#dashboard" class="nav-link text-white">Dashboard</a></li>
-        <li class="nav-item"><a href="#karyawan" class="nav-link text-white">Karyawan</a></li>
-        <li class="nav-item"><a href="#jabatan" class="nav-link text-white">Jabatan</a></li>
-        <li class="nav-item"><a href="#divisi" class="nav-link text-white">Divisi</a></li>
-        <li class="nav-item"><a href="#divisi" class="nav-link text-white mt-4 ml-3">Menu Absensi</a></li>
-        <li class="nav-item"><a href="#divisi" class="nav-link text-white">Absensi</a></li>
-        <li class="nav-item"><a href="#divisi" class="nav-link text-white">Izin</a></li>
-        <li class="nav-item"><a href="#divisi" class="nav-link text-white">Lembur</a></li>
-      </ul>
+      <div class="logo">
+        <img src="assets/img/logo.png" alt="Logo Unpam" class="img-fluid">
+        <h4>UNIVERSITAS <span>PAMULANG</span></h4>
+      </div>
+
+      <div class="user-info">
+        <img src="assets/img/user.jpg" alt="User">
+        <p>Welcome, M Rahmat <br> <span>Teknik Informatika</span></p>
+      </div>
+      
+        <ul class="nav flex-column mt-4">
+          <div class="nav-item">
+            <img src="assets/img/dashboard.png" alt="dashboard" class="nav-icon">
+            <li class="nav-item"><a href="#dashboard" class="nav-link text-black">Dashboard</a></li>
+          </div>
+          <h2>Menu Karyawan</h2>
+          <div class="nav-item">
+            <img src="assets/img/karyawan.png" alt="karyawan" class="nav-icon">
+            <li class="nav-item"><a href="#karyawan" class="nav-link text-black">Karyawan</a></li>
+          </div>
+          <div class="nav-item">
+            <img src="assets/img/jabatan.png" alt="jabatan" class="nav-icon">
+            <li class="nav-item"><a href="#jabatan" class="nav-link text-black">Jabatan</a></li>
+          </div>
+          <div class="nav-item">
+            <img src="assets/img/divisi.png" alt="divisi" class="nav-icon">
+            <li class="nav-item"><a href="#divisi" class="nav-link text-black">Divisi</a></li>
+          </div>
+          <h2>Menu Absensi</h2>
+          <div class="nav-item">
+            <img src="assets/img/absence.png" alt="absensi" class="nav-icon">
+            <li class="nav-item"><a href="#absensi" class="nav-link text-black">Absensi</a></li>
+          </div>
+          <div class="nav-item">
+            <img src="assets/img/izin_2.png" alt="izin" class="nav-icon">
+            <li class="nav-item"><a href="#izin" class="nav-link text-black">Izin</a></li>
+          </div>
+          <div class="nav-item">
+            <img src="assets/img/lembur_2.png" alt="lembur" class="nav-icon">
+            <li class="nav-item"><a href="#lembur" class="nav-link text-black">Lembur</a></li>
+          </div>
+          <h2>Menu Penggajian</h2>
+          <div class="nav-item">
+            <img src="assets/img/slip-gaji.png" alt="absensi" class="nav-icon">
+            <li class="nav-item"><a href="#gaji" class="nav-link text-black">Slip Gaji</a></li>
+          </div>
+          <div class="nav-item">
+            <img src="assets/img/cetak-slip-gaji.png" alt="izin" class="nav-icon">
+            <li class="nav-item"><a href="#cetak-gaji" class="nav-link text-black">Cetak Slip Gaji</a></li>
+          </div>
+          <h2>Menu Laporan</h2>
+          <div class="nav-item">
+            <img src="assets/img/cetak-laporan.png" alt="absensi" class="nav-icon">
+            <li class="nav-item"><a href="#laporan" class="nav-link text-black">Cetak Laporan</a></li>
+          </div>
+          <h2>Menu Admin</h2>
+          <div class="nav-item">
+            <img src="assets/img/pengguna.png" alt="absensi" class="nav-icon">
+            <li class="nav-item"><a href="#pengguna" class="nav-link text-black">Pengguna</a></li>
+          </div>
+        </ul>
     </nav>
 
     <!-- Main Content -->
@@ -30,7 +80,7 @@
       <p>Select an option from the sidebar to see more information.</p>
     </main>
   </div>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/script.js"></script>
   </body>
 </html>

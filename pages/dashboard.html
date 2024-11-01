@@ -5,38 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/css/styles.css" rel="stylesheet">
+    <link href="/assets/css/dashboard.css" rel="stylesheet">
   </head>
   <body>
-    <!-- dashboard.html -->
-    <div class="content">
-        <h3>Sistem Informasi Manajemen Karyawan</h3>
-        <h5>Admin Dashboard</h5>
-        <div class="row mt-4">
-          <div class="col-md-3">
-            <div class="card bg-primary text-white">
-              <h4>Data Pegawai</h4>
-              <p>13</p>
-            </div>
+    <div class="bg-color"></div>
+    <div class="main-content">
+        <div class="header">
+          <h2>Sistem Informasi Manajemen Karyawan</h2>
+          <h4>Admin Dashboard</h4>
+        </div>
+        
+        <div class="card-container">
+          <div class="card-item">
+            <img src="assets/img/data-pegawai.png" alt="Data Pegawai" width="40">
+            <p>Data Pegawai</p>
+            <p class="number">13</p>
           </div>
-          <div class="col-md-3">
-            <div class="card bg-success text-white">
-              <h4>Absensi Hari Ini</h4>
-              <p>0</p>
-              <small>11 May 2023</small>
-            </div>
+          <div class="card-item">
+            <img src="assets/img/absen-today.png" alt="Absensi Hari Ini" width="40">
+            <p>Absensi Hari Ini</p>
+            <p>11 May 2023</p>
+            <p class="number">0</p>
           </div>
-          <div class="col-md-3">
-            <div class="card bg-info text-white">
-              <h4>Izin Menunggu Konfirmasi</h4>
-              <p>2</p>
-            </div>
+          <div class="card-item">
+            <img src="assets/img/izin.png" alt="Izin Menunggu Konfirmasi" width="40">
+            <p>Izin Menunggu Konfirmasi</p>
+            <p class="number">2</p>
           </div>
-          <div class="col-md-3">
-            <div class="card bg-warning text-white">
-              <h4>Lembur Menunggu Konfirmasi</h4>
-              <p>1</p>
-            </div>
+          <div class="card-item">
+            <img src="assets/img/lembur.png" alt="Lembur Menunggu Konfirmasi" width="40">
+            <p>Lembur Menunggu Konfirmasi</p>
+            <p class="number">1</p>
           </div>
         </div>
       </div>
